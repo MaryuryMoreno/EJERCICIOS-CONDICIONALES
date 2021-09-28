@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicional2</title>
+</head>
+<script>
+    /*
+    Una tienda el 30% de descuenta a una compra si esta es mayor a 2000 y si no
+    da un descuento del 5% muestre salida total de la compra, el descuneto y el total a pagar
+    Realizado por: Maryury Maldonado
+    */
+    var descuento;
+    var totalpagar;
+    var compra =parseInt(prompt("INGRESE EL VALOR DE LA COMPRA"))
+    if (compra > 2000){
+        descuento = 0.3*compra
+        totalpagar = compra - descuento
+    }else{
+        descuento = 0.05*compra
+        totalpagar = compra - descuento
+    }
+        alert(`EL VALOR DE LA COMPRA ES: ${compra}`)
+        alert(`EL DESCUENTO ES: ${descuento}`)
+        alert(`EL TOTAL A PAGAR ES: ${totalpagar}`)
+        
+    
+
+</script>
+<body>
+    
+</body>
+</html>
